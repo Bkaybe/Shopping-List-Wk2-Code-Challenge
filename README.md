@@ -67,7 +67,9 @@ Below are different approaches :
 
 \*_Follow this steps below to launch the web page:_
 
-1. From the github repository you can go ahead and click on the live link using located in this location as displayed in this Image below.
+1. From the github repository you can go ahead and click on the live link using located in this location as displayed in this Image below, click on the link below the about tab on the top right.
+
+   ![Link Image](images/github.png)
 
 2. The link will take you to the live hosted website.
 
