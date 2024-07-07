@@ -69,7 +69,9 @@ Below are different approaches :
 
 1. From the github repository you can go ahead and click on the live link using located in this location as displayed in this Image below, click on the link below the about tab on the top right.
 
-   ![Link Image](images/github.png)
+[Link To Live Website](https://bkaybe.github.io/Shopping-List-Wk2-Code-Challenge/)
+
+![Link Image](images/github.png)
 
 2. The link will take you to the live hosted website.
 
