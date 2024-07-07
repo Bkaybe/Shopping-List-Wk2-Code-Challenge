@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Merienda", cursive;
+}
+
+#header-section {
+  background-color: black;
+  color: rgb(160, 199, 21);
+}
+
+.div-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#main {
+  height: 100vh;
+  padding-top: 25px;
+}
+.main-heading {
+  text-align: center;
+}
+
+#container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#container h2 {
+  text-align: center;
+}
+div#form #Add-to-cart {
+  background-color: rgb(200, 219, 219);
+  color: black;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px;
+  padding: 5px;
+}
+
+div#form #Add-to-cart:hover {
+  background-color: #1b631b;
+  color: white;
+}
+
+#entry-point {
+  height: fit-content;
+}
+
+.wrappers {
+  background-color: rgb(179, 179, 179);
+  border-radius: 12px;
+  padding: 15px;
+  height: auto;
+  width: 500px;
+  border: 2px solid white;
+}
+
+.content-padding {
+  padding-top: 12px;
+}
+
+#list-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+#output-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#output-point #clear-btn {
+  background-color: rgb(200, 219, 219);
+  color: black;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+div#output-point #clear-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Styling for delete button */
+button {
+  padding: 5px;
+  margin-left: 5px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Styling for checkbox */
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}

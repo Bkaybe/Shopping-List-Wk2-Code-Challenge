@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header-section">
+      <div class="div-header">
+        <h1>Maya's Shopping List</h1>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main id="main">
+      <h1 class="main-heading">Manage Your Shopping List With Us!!</h1>
+      <div id="container">
+        <div id="entry-point" class="wrappers">
+          <h2>The Entry Point</h2>
+          <div id="form" class="content-padding">
+            <form action="">
+              <label for="input-field">Enter Shopping Item: </label>
+              <input
+                type="text"
+                id="input_field"
+                placeholder="New item"
+                required
+              />
+              <button type="submit" id="Add-to-cart">Add To Cart</button>
+            </form>
+          </div>
+        </div>
+        <div id="output-point" class="wrappers">
+          <h2>Cart Display</h2>
+          <div id="list-display" class="content-padding"></div>
+          <button type="reset" id="clear-btn">Clear Shopping List</button>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
