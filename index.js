@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
+    CONSOLE;
     handleNewShopping(e.target.input_field.value);
 
     form.reset();
